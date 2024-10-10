@@ -39,6 +39,7 @@ export default function ProjectDetails({
     .slice(1)
     .map((image) => (
       <Image
+        unoptimized
         key={image}
         src={image}
         width={400}
@@ -51,6 +52,7 @@ export default function ProjectDetails({
   return (
     <main className="my-10 width-responsive flex flex-col gap-5">
       <Image
+        unoptimized
         src={images[0]}
         alt={`${title} Image`}
         height={600}

@@ -12,6 +12,7 @@ export default function TestimonialListItem({
   return (
     <div className="rounded-lg text-sm sm:text-base px-5 flex flex-col items-center gap-3">
       <Image
+        unoptimized
         src={image}
         alt={`${name} image`}
         width={200}

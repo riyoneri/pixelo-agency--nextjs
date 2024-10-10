@@ -28,6 +28,7 @@ export default function Project({
           <ArrowUpRight className="size-20 p-4 rounded-full bg-black" />
         </div>
         <Image
+          unoptimized
           src={images[0]}
           alt={`${title} image-${id}`}
           className="object-cover w-full h-64 sm:h-80 scale-95"
